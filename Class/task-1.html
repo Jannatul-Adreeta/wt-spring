@@ -14,16 +14,59 @@
 <body>
 
 
-    
+    <style>
+        body{ 
+            background-color: rgb(169, 138, 138);
+             
+        }
+
+        table{
+            margin-top: 2px;
+            border: 2px dashed rgb(0, 0, 0);
+            padding: 40px;
+            color: rgb(0, 0, 1);
+            background-color: rgb(218, 219, 222);
+            margin-bottom: 5px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 25px;
+            border-radius: 15px;
+
+        }
+
+        .box{ 
+            width: 300px;
+            height: 30px;
+            border: 2px  dotted rgb(65, 63, 63);
+            border-radius: 5px;
+            
+
+        }
+
+        .box1{
+            width: 500px;
+            height: 40px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(130, 69, 51);
+            border-style: dashed;
+            font-size: large;
+
+            
+
+        }
+
+       
+
+
+    </style>
 
 
  
 
 <h1>AIUB Admission Registration Form Page</h1>
-<p> <i>Please upload all mentioned Credentials</i> </p>
 
-<fieldset>
-    <legend>Personal Information:</legend>
+
+   
 
 <form>
 
@@ -33,7 +76,7 @@
 
             <td>First Name: </td>
 
-            <td> <input type="text"> </td>
+            <td> <input type="text" class="box"> </td>
 
         </tr>
 
@@ -41,7 +84,7 @@
 
             <td>Last Name: </td>
 
-            <td> <input type="text"> </td>
+            <td> <input type="text" class="box"> </td>
 
         </tr>
 
@@ -49,7 +92,7 @@
 
             <td>Email Address: </td>
 
-            <td><input type="email">  </td>
+            <td><input type="email" class="box">  </td>
 
         </tr>
 
@@ -75,7 +118,7 @@
 
             <td>Date of Birth: </td>
 
-            <td> <input type="date"></td>
+            <td> <input type="date" class="box"></td>
 
         </tr>
 
@@ -113,7 +156,7 @@
 
         <tr>
 
-            <td> <input type="submit"> </td>
+            <td colspan="2"> <input type="submit"  class =" box1"> </td>
 
         </tr>
 
@@ -121,7 +164,7 @@
 
     </table>
 
-    </fieldset>
+   
 
 </form>
 
