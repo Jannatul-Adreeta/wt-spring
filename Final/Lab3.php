@@ -30,6 +30,8 @@
     <h2>Registration Form - PHP Validation</h2>
  
     <?php
+
+    $conn 
    
     // variables
     $name = $age = $email = $password = $phone = "";
